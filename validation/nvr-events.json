@@ -1,0 +1,26 @@
+{
+  "config": {
+    "motion_threshold": 45,
+    "motion_masks": [
+      "above_band",
+      "below_band",
+      "left_of_band",
+      "right_of_band"
+    ],
+    "detect_enabled": true
+  },
+  "camera": {
+    "camera_fps": 3.1,
+    "process_fps": 0.1,
+    "detection_fps": 0.2,
+    "skipped_fps": 3.0
+  },
+  "detector": 4777.73,
+  "event_rows": 3,
+  "review_rows": 1,
+  "recording_segments": 2,
+  "snapshot_jpeg_bytes": 67628,
+  "snapshot_label": "person",
+  "event_has_snapshot": true,
+  "recorded_clip_bytes": 722811
+}

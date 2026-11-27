@@ -1,0 +1,108 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/launch.json
+
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.python-version
+
+# Node and frontend
+node_modules/
+web/node_modules/
+web/build/
+web/dist/
+web/coverage/
+.npm/
+.eslintcache
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+web/.env
+web/.env.*
+!web/.env.example
+.secrets/
+secrets/
+credentials/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data and databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/
+media/
+cache/
+.cache/
+core
+debug
+
+# Generated reports and temporary files
+*.log
+*.pid
+*.tmp
+*.temp
+.coverage
+coverage/
+htmlcov/
+.ipynb_checkpoints/
+validation/audit-*/
+validation/crash1.mp4
+validation/*-upload.json
+validation/nvr-upload.json
+
+# Private and personal media
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.m4v
+*.webm
+*.m4a
+*.wav
+*.aac
+*.flac
+*.mp3
+
+# Approved repository demo and sample media
+!demo/hyderabad.mp4
+!validation/sample-result/review.mp4
+
+# Local configuration
+config/*
+!config/*.example
+.claude/*
+.mcp.json
+models
+*.csv
+frigate/version.py
+!/web/**/*.ts
+
+# Auto-generated Docker Compose Generator configuration
+docs/src/components/DockerComposeGenerator/config/devices.ts
+docs/src/components/DockerComposeGenerator/config/hardware.ts
+docs/src/components/DockerComposeGenerator/config/ports.ts
+
+# GenAI review prompt tester local data
+testing-scripts/genai-review-examples/*
+!testing-scripts/genai-review-examples/README.md

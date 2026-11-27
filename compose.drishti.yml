@@ -1,0 +1,24 @@
+name: drishti-ai
+services:
+  nvr:
+    build:
+      context: .
+      dockerfile: deploy/drishti/Dockerfile
+    image: drishti-ai:ce5b26d-1
+    ports:
+      - "127.0.0.1:${DRISHTI_PORT:-8971}:8971"
+    shm_size: 256mb
+    volumes:
+      - config:/config
+      - media:/media/frigate
+    tmpfs:
+      - /tmp/cache:size=192m
+    environment:
+      TZ: Asia/Kolkata
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "1"
+    stop_grace_period: 40s
+    restart: unless-stopped
+volumes:
+  config:
+  media:

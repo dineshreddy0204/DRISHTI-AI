@@ -1,0 +1,54 @@
+{
+  "images": 20,
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "provider": "CPUExecutionProvider",
+  "onnxruntime": "1.31.1",
+  "score_cutoff": 0.4,
+  "match_iou": 0.5,
+  "per_class": {
+    "person": {
+      "tp": 61,
+      "fp": 9,
+      "fn": 55,
+      "ignored_crowd": 10
+    },
+    "bicycle": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 3,
+      "ignored_crowd": 0
+    },
+    "car": {
+      "tp": 7,
+      "fp": 2,
+      "fn": 12,
+      "ignored_crowd": 1
+    },
+    "motorcycle": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 4,
+      "ignored_crowd": 0
+    },
+    "bus": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "ignored_crowd": 0
+    },
+    "truck": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ignored_crowd": 0
+    }
+  },
+  "total": {
+    "tp": 75,
+    "fp": 12,
+    "fn": 77,
+    "ignored_crowd": 11
+  },
+  "micro_precision": 0.8621,
+  "micro_recall": 0.4934
+}

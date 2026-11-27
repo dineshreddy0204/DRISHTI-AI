@@ -1,0 +1,80 @@
+{
+  "arch": "aarch64",
+  "onnxruntime": "1.31.1",
+  "cpu_cores": 8,
+  "ram_total_gb": 8.11,
+  "coco20_benchmarks": [
+    {
+      "model_id": "yolox-nano-416",
+      "input_size": 416,
+      "images": 20,
+      "total": {
+        "tp": 75,
+        "fp": 12,
+        "fn": 77,
+        "ignored_crowd": 11
+      },
+      "micro_precision": 0.8621,
+      "micro_recall": 0.4934,
+      "median_inference_ms": 98.89,
+      "p95_inference_ms": 169.31
+    },
+    {
+      "model_id": "yolox-s-640",
+      "input_size": 640,
+      "images": 20,
+      "total": {
+        "tp": 113,
+        "fp": 9,
+        "fn": 39,
+        "ignored_crowd": 26
+      },
+      "micro_precision": 0.9262,
+      "micro_recall": 0.7434,
+      "median_inference_ms": 1660.07,
+      "p95_inference_ms": 2394.91
+    }
+  ],
+  "hyderabad_video_benchmarks": [
+    {
+      "model_id": "yolox-nano-416",
+      "sample_fps": 5,
+      "sample_count": 100,
+      "box_count": 734,
+      "unique_tracks_total": 47,
+      "unique_tracks_by_label": {
+        "motorcycle": 9,
+        "person": 29,
+        "unknown_vehicle": 8,
+        "car": 1
+      },
+      "median_inference_ms": 114.81,
+      "p95_inference_ms": 190.13,
+      "end_to_end_fps": 3.03,
+      "total_wall_s": 32.95,
+      "incidents_detected": 0,
+      "risk_events_detected": 86
+    },
+    {
+      "model_id": "yolox-s-640",
+      "sample_fps": 5,
+      "sample_count": 100,
+      "box_count": 1315,
+      "unique_tracks_total": 75,
+      "unique_tracks_by_label": {
+        "backpack": 8,
+        "motorcycle": 10,
+        "person": 37,
+        "car": 4,
+        "unknown_vehicle": 15,
+        "banana": 1
+      },
+      "median_inference_ms": 2115.22,
+      "p95_inference_ms": 2951.53,
+      "end_to_end_fps": 0.4,
+      "total_wall_s": 248.033,
+      "incidents_detected": 0,
+      "risk_events_detected": 241
+    }
+  ]
+}

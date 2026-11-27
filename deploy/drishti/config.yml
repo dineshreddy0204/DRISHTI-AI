@@ -1,0 +1,63 @@
+mqtt:
+  enabled: false
+auth:
+  enabled: true
+tls:
+  enabled: false
+telemetry:
+  version_check: false
+models:
+  - scene: default
+    path: /opt/drishti/demo/yolox_nano.onnx
+    labelmap_path: /opt/drishti/demo/coco-80.txt
+    width: 416
+    height: 416
+    input_tensor: nchw
+    input_pixel_format: bgr
+    input_dtype: float_denorm
+    model_type: yolox
+    devices: ["onnx:CPU"]
+detect:
+  enabled: true
+objects:
+  track: [person, bicycle, car, motorcycle, bus, truck]
+record:
+  enabled: true
+  continuous:
+    days: 0.05
+  alerts:
+    retain:
+      days: 1
+  detections:
+    retain:
+      days: 1
+snapshots:
+  enabled: true
+  retain:
+    default: 1
+cameras:
+  hyderabad_replay:
+    # Trigger motion in the central roadway band of this busy sample.
+    # New camera views need their own motion settings.
+    motion:
+      threshold: 45
+      mask:
+        above_band:
+          coordinates: "0,0,1,0,1,0.44,0,0.44"
+        below_band:
+          coordinates: "0,0.54,1,0.54,1,1,0,1"
+        left_of_band:
+          coordinates: "0,0.44,0.28,0.44,0.28,0.54,0,0.54"
+        right_of_band:
+          coordinates: "0.64,0.44,1,0.44,1,0.54,0.64,0.54"
+    ffmpeg:
+      hwaccel_args: []
+      inputs:
+        - path: /opt/drishti/demo/hyderabad.mp4
+          input_args: -re -stream_loop -1 -fflags +genpts
+          roles: [detect, record]
+    detect:
+      width: 854
+      height: 480
+      fps: 3
+version: 0.19-0

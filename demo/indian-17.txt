@@ -1,0 +1,18 @@
+0 person
+1 bicycle
+2 motorcycle
+3 scooter
+4 auto_rickshaw
+5 e_rickshaw
+6 car
+7 suv
+8 van
+9 bus
+10 mini_bus
+11 truck
+12 tractor
+13 ambulance
+14 traffic_light
+15 road_obstacle
+16 unknown_vehicle
+

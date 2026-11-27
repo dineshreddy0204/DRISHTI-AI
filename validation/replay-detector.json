@@ -1,0 +1,23 @@
+{
+  "camera": "hyderabad_replay",
+  "motion_threshold": 45,
+  "sampled_frames": 60,
+  "calibrated_frames_with_motion": 60,
+  "test_region_xyxy": [
+    184,
+    0,
+    664,
+    480
+  ],
+  "filtered_detector_boxes": {
+    "motorcycle": 76,
+    "person": 162,
+    "car": 8
+  },
+  "tracker_ids_by_label": {
+    "motorcycle": 2,
+    "person": 11,
+    "car": 1
+  },
+  "counting_unit": "box per sampled frame in the fixed test region"
+}

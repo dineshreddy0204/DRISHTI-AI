@@ -1,0 +1,61 @@
+{
+  "noPreviewFound": "Ingen förhandsvisning hittad",
+  "noRecordingsFoundForThisTime": "Inga inspelningar hittades vid den här tidpunkten",
+  "noPreviewFoundFor": "Ingen förhandsvisning hittad för {{cameraName}}",
+  "submitFrigatePlus": {
+    "title": "Skicka denna bild till Frigate+?",
+    "submit": "Skicka",
+    "previewError": "Det gick inte att ladda förhandsgranskningen av ögonblicksbilden. Inspelningen är kanske inte tillgänglig just nu."
+  },
+  "livePlayerRequiredIOSVersion": "iOS 17.1 eller senare krävs för den här typen av livestream.",
+  "streamOffline": {
+    "title": "Strömmen är inte tillgänglig",
+    "desc": "Inga bildrutor har mottagits på {{cameraName}} <code>detect</code>-strömmen, kontrollera felloggarna"
+  },
+  "stats": {
+    "streamType": {
+      "short": "Typ",
+      "title": "Strömtyp:"
+    },
+    "bandwidth": {
+      "title": "Bandbredd:",
+      "short": "Bandbredd"
+    },
+    "totalFrames": "Totalt antal bildrutor:",
+    "droppedFrames": {
+      "title": "Förlorade bildrutor:",
+      "short": {
+        "title": "Förlorade",
+        "value": "{{droppedFrames}} bildrutor"
+      }
+    },
+    "decodedFrames": "Avkodade bildrutor:",
+    "droppedFrameRate": "Andel förlorade bildrutor:",
+    "stream": "Ström:",
+    "streamAuto": "{{stream}} (automatiskt)"
+  },
+  "toast": {
+    "error": {
+      "submitFrigatePlusFailed": "Det gick inte att skicka bildrutan till Frigate+",
+      "playRecordingsFailed": "Det gick inte att spela upp inspelningarna (fel {{code}}): {{message}}"
+    },
+    "success": {
+      "submittedFrigatePlus": "Bildrutan har skickats till Frigate+"
+    }
+  },
+  "cameraOff": "Kameran är avstängd",
+  "quality": {
+    "auto": "Automatiskt",
+    "autoLow": "Spelar med låg kvalitet (begränsad bandbredd)",
+    "autoLowCodec": "Spelar med låg kvalitet (originalet stöds inte av den här webbläsaren)",
+    "autoLowSaveData": "Spelar med låg kvalitet (datasparläge)",
+    "main": "Original",
+    "sub": "Låg",
+    "notSupportedBrowser": "Stöds inte av den här webbläsaren",
+    "label": "Kvalitet",
+    "noAudio": "Inget ljud",
+    "audioRate": "{{rate}} kHz ljud",
+    "audioCodecRate": "{{codec}} {{rate}} kHz",
+    "noRecordings": "Inga inspelningar i det här tidsintervallet"
+  }
+}

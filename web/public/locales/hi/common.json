@@ -1,0 +1,90 @@
+{
+  "time": {
+    "untilForTime": "{{time}} तक",
+    "untilForRestart": "DRISHTI AI पुनः शुरू होने तक।",
+    "untilRestart": "रीस्टार्ट होने में",
+    "ago": "{{timeAgo}} पहले",
+    "today": "आज",
+    "yesterday": "कल",
+    "justNow": "अभी",
+    "last7": "पिछले 7 दिन",
+    "last30": "पिछले 30 दिन"
+  },
+  "menu": {
+    "live": {
+      "title": "लाइव",
+      "allCameras": "सभी कैमरे",
+      "cameras": {
+        "title": "कैमरे",
+        "count_one": "{{count}} कैमरा",
+        "count_other": "{{count}} कैमरे"
+      }
+    },
+    "review": "समीक्षा",
+    "explore": "खोजें",
+    "export": "निर्यात",
+    "settings": "सेटिंग्स",
+    "languages": "भाषाएँ",
+    "system": "सिस्टम",
+    "systemMetrics": "स्थिति और मेट्रिक्स",
+    "configuration": "कॉन्फ़िगरेशन",
+    "configurationEditor": "कॉन्फ़िगरेशन संपादक",
+    "systemLogs": "लॉग",
+    "profiles": "प्रोफ़ाइल",
+    "appearance": "दिखावट",
+    "darkMode": {
+      "label": "डार्क मोड",
+      "light": "लाइट",
+      "dark": "डार्क",
+      "withSystem": {
+        "label": "सिस्टम सेटिंग इस्तेमाल करें"
+      }
+    },
+    "faceLibrary": "चेहरों की लाइब्रेरी",
+    "classification": "वर्गीकरण",
+    "chat": "चैट",
+    "restart": "DRISHTI AI पुनः शुरू करें",
+    "help": "सहायता",
+    "language": {
+      "te": "తెలుగు (तेलुगु)",
+      "hi": "हिन्दी (हिंदी)",
+      "en": "English (अंग्रेज़ी)"
+    }
+  },
+  "button": {
+    "add": "जोड़ें",
+    "apply": "लागू करें",
+    "reset": "रीसेट करें",
+    "undo": "पूर्ववत करें",
+    "done": "पूरा हुआ",
+    "enabled": "सक्रिय",
+    "enable": "सक्रिय करें",
+    "disabled": "निष्क्रिय",
+    "disable": "निष्क्रिय करें",
+    "save": "सहेजें",
+    "saving": "सहेजा जा रहा है…",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "clear": "साफ़ करें",
+    "copy": "कॉपी",
+    "back": "वापस",
+    "history": "इतिहास",
+    "edit": "संपादित करें",
+    "delete": "हटाएँ",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "download": "डाउनलोड",
+    "play": "चलाएँ",
+    "export": "निर्यात",
+    "next": "अगला",
+    "continue": "जारी रखें",
+    "retry": "दोबारा प्रयास करें",
+    "reload": "रीलोड"
+  },
+  "label": {
+    "back": "वापस जाएँ",
+    "none": "कोई नहीं",
+    "all": "सभी",
+    "other": "अन्य"
+  }
+}

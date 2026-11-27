@@ -1,0 +1,61 @@
+{
+  "noRecordingsFoundForThisTime": "找不到此次录制",
+  "noPreviewFound": "没有找到预览",
+  "noPreviewFoundFor": "没有在 {{cameraName}} 下找到预览",
+  "submitFrigatePlus": {
+    "title": "提交此帧到 Frigate+？",
+    "submit": "提交",
+    "previewError": "无法加载快照预览。该录制当前可能不可用。"
+  },
+  "livePlayerRequiredIOSVersion": "此直播流类型需要 iOS 17.1 或更高版本。",
+  "streamOffline": {
+    "title": "视频流离线",
+    "desc": "未在 {{cameraName}} 的 <code>detect</code> 流上接收到任何帧，请检查错误日志"
+  },
+  "stats": {
+    "streamType": {
+      "title": "流类型：",
+      "short": "类型"
+    },
+    "bandwidth": {
+      "title": "带宽：",
+      "short": "带宽"
+    },
+    "totalFrames": "总帧数：",
+    "droppedFrames": {
+      "title": "丢帧数：",
+      "short": {
+        "title": "丢帧",
+        "value": "{{droppedFrames}} 帧"
+      }
+    },
+    "decodedFrames": "解码帧数：",
+    "droppedFrameRate": "丢帧率：",
+    "stream": "视频流：",
+    "streamAuto": "{{stream}} （自动）"
+  },
+  "toast": {
+    "success": {
+      "submittedFrigatePlus": "已成功提交帧到 Frigate+"
+    },
+    "error": {
+      "submitFrigatePlusFailed": "提交帧到 Frigate+ 失败",
+      "playRecordingsFailed": "播放录制失败（错误代码 {{code}}）：{{message}}"
+    }
+  },
+  "cameraOff": "摄像头已关闭",
+  "quality": {
+    "auto": "自动",
+    "autoLow": "播放低质量画面（带宽受限）",
+    "autoLowCodec": "播放低质量画面（该浏览器不支持原画）",
+    "autoLowSaveData": "播放低质量画面（节省带宽）",
+    "main": "原画",
+    "sub": "低画质",
+    "notSupportedBrowser": "不支持该浏览器",
+    "label": "画质",
+    "noAudio": "无音频",
+    "audioRate": "{{rate}} kHz 音频",
+    "audioCodecRate": "{{codec}}{{rate}} kHz",
+    "noRecordings": "该时间段内无录制"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "documentTitle": {
+    "default": "లైవ్ - DRISHTI AI",
+    "withCamera": "{{camera}} - లైవ్ - DRISHTI AI"
+  },
+  "lowBandwidthMode": "తక్కువ బ్యాండ్‌విడ్త్ మోడ్",
+  "camera": {
+    "turnOn": "కెమెరా ఆన్ చేయి",
+    "turnOff": "కెమెరా ఆఫ్ చేయి"
+  },
+  "detect": {
+    "enable": "గుర్తింపు ప్రారంభించు",
+    "disable": "గుర్తింపు నిలిపివేయి"
+  },
+  "recording": {
+    "enable": "రికార్డింగ్ ప్రారంభించు",
+    "disable": "రికార్డింగ్ నిలిపివేయి"
+  },
+  "snapshots": {
+    "enable": "స్నాప్‌షాట్ ప్రారంభించు",
+    "disable": "స్నాప్‌షాట్ నిలిపివేయి"
+  }
+}

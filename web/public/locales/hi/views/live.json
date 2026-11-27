@@ -1,0 +1,24 @@
+{
+  "documentTitle.withCamera": "{{camera}} - लाइव - फ्रिगेट",
+  "lowBandwidthMode": "कम बैंडविड्थ मोड",
+  "documentTitle": {
+    "default": "लाइव - DRISHTI AI",
+    "withCamera": "{{camera}} - लाइव - DRISHTI AI"
+  },
+  "camera": {
+    "turnOn": "कैमरा चालू करें",
+    "turnOff": "कैमरा बंद करें"
+  },
+  "detect": {
+    "enable": "पहचान चालू करें",
+    "disable": "पहचान बंद करें"
+  },
+  "recording": {
+    "enable": "रिकॉर्डिंग चालू करें",
+    "disable": "रिकॉर्डिंग बंद करें"
+  },
+  "snapshots": {
+    "enable": "स्नैपशॉट चालू करें",
+    "disable": "स्नैपशॉट बंद करें"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "login": true,
+  "exports_navigation": true,
+  "rendered_te": true,
+  "rendered_hi": true,
+  "rendered_en": true,
+  "accepted": 202,
+  "completed_after_navigation": true,
+  "upload": {
+    "sample_count": 2,
+    "box_count": 14,
+    "boxes_by_label": {
+      "motorcycle": 5,
+      "car": 3,
+      "person": 6
+    },
+    "model": "YOLOX-Nano",
+    "provider": "CPUExecutionProvider"
+  },
+  "downloaded_review_bytes": 97851,
+  "settings_language_switch_persisted": true
+}

@@ -1,0 +1,27 @@
+{
+  "model": "YOLOX-Nano",
+  "model_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "input_sha256": "c3f29fa4f9496611f3857c53ffc24f31358b3d3f8cafc26539a513565a454bd4",
+  "provider": "CPUExecutionProvider",
+  "onnxruntime": "1.31.1",
+  "arch": "x86_64",
+  "sample_fps": 2,
+  "duration_s": 20.0,
+  "frame_size": [
+    640,
+    360
+  ],
+  "sample_count": 40,
+  "box_count": 247,
+  "boxes_by_label": {
+    "motorcycle": 67,
+    "car": 11,
+    "person": 166,
+    "bicycle": 1,
+    "backpack": 2
+  },
+  "median_inference_ms": 8.64,
+  "p95_inference_ms": 19.31,
+  "score_threshold": 0.4,
+  "nms_iou": 0.4
+}
